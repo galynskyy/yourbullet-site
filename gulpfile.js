@@ -24,7 +24,7 @@ gulp.task("html", function() {
 
 gulp.task("ajax", function() {
 	return gulp.src("./src/ajax/**/*.php")
-		.pipe(gulp.dest("./public/"));
+		.pipe(gulp.dest("./public/ajax/"));
 });
 
 gulp.task("assets", function() {
