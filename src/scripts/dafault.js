@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 $(".about__form").on("submit", function() {
-	//yaCounter42619424.reachGoal("feedback");
+	yaCounter42859779.reachGoal("feedback");
 
 	var phone = $("#about__phone");
 
