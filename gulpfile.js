@@ -28,7 +28,7 @@ gulp.task("ajax", function() {
 });
 
 gulp.task("assets", function() {
-    gulp.src("./src/assets/**/*.{svg,jpg,png}")
+    gulp.src("./src/assets/**/*")
         .pipe(gulp.dest("./public/assets/"));
 });
 
