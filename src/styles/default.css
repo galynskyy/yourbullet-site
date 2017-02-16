@@ -1,0 +1,145 @@
+html, body, h1 {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	max-width: 1170px;
+	position: relative;
+	margin: 60px auto;
+	z-index: 3;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 0 80px;
+}
+
+.header-company__name {
+	font: bold 36px "RobotoCondensed-Regular", sans-serif;
+	color: #fff;
+}
+
+.header-company__caption {
+	font: 18px "RobotoCondensed-Regular", sans-serif;
+	color: #fff;
+}
+
+.header-contacts__phone {
+	font: 22px "RobotoCondensed-Regular", sans-serif;
+	border-bottom: 2px solid #ff9e0f;
+	color: #fff;
+}
+
+.about {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 678px;
+}
+
+.about__input {
+	min-height: 40px;
+    min-width: 348px;
+    padding: 12px;
+    margin: 0 0 20px;
+    font: 22px "RobotoCondensed-Regular", sans-serif;
+    border: 2px solid #fff;
+    background: transparent;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+}
+
+.about__heading {
+	font: 48px "RobotoCondensed-Regular", sans-serif;
+	color: #fff;
+}
+
+.about__caption {
+	font: 24px "RobotoCondensed-Regular", sans-serif;
+	color: #fff;
+}
+
+.about__button {
+	background: transparent;
+	border: 2px solid #ff9e0f;
+	outline: 0;
+	min-height: 64px;
+	min-width: 348px;
+	font: 24px "RobotoCondensed-Regular", sans-serif;
+	color: #ff9e0f;
+	cursor: pointer;
+	transition: background .8s, color .8s;
+}
+
+.about__button:hover {
+	background: #ff9e0f;
+	color: #fff;
+}
+
+.fullscreen {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.fullscreen {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	background: rgba(0, 0, 0, .6);
+}
+
+.video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		max-width: 300px;
+	}
+
+	.header {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0 0 20px;
+	}
+
+	.header-company {
+		margin: 0 0 10px;
+		text-align: center;
+	}
+
+	.about__button {
+		min-width: 120px;
+	}
+
+	.about__input {
+		min-width: 120px;
+	}
+
+	.about {
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+}
