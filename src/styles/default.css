@@ -115,6 +115,7 @@ html, body, h1 {
 @media (max-width: 768px) {
 	.wrapper {
 		max-width: 300px;
+		margin: 10px auto;
 	}
 
 	.header {
@@ -122,6 +123,10 @@ html, body, h1 {
 		justify-content: center;
 		align-items: center;
 		margin: 0 0 20px;
+	}
+
+	.about__heading {
+		font: 38px "RobotoCondensed-Regular", sans-serif;
 	}
 
 	.header-company {
