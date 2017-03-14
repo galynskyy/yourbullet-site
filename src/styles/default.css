@@ -112,6 +112,50 @@ html, body, h1 {
 	z-index: 1;
 }
 
+/* Modal */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: rgba(0, 0, 0, .4);
+}
+
+.modal-content {
+	background: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	border-radius: 8px;
+	width: 30%;
+	animation: modalAnimate 2s;
+}
+
+@keyframes modalAnimate {
+	from {top: 0px; opacity: 0}
+	to {top: 300px; opacity: 1}
+}
+
+.close {
+	display: block;
+    background: url("../assets/icons/close.svg") center/24px 24px no-repeat;
+    min-width: 24px;
+    min-height: 24px;
+    float: right;
+    transition: transform .8s;
+}
+
+.close:hover,
+.close:focus {
+	transform: rotate(180deg);
+	cursor: pointer;
+}
+/* /Modal */
+
 @media (max-width: 768px) {
 	.wrapper {
 		max-width: 300px;
