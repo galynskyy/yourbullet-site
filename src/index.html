@@ -3,42 +3,57 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="styles/bundle.min.css">
+		<link rel="stylesheet" href="styles/default.css">
+		<link rel="stylesheet" href="styles/fonts.css">
 		<link rel="shortcut icon" href="assets/favicon.png" type="image/png">
 		<title>Твоя пуля - Разработка сайтов, продвижение в поисковых системах</title>
 	</head>
 	<body>
 		<div class="wrapper">
 			<div class="header">
-				<div class="header-company">
-					<h1 class="header-company__name">#YourBullet</h1>
-					<h1 class="header-company__caption">Больше чем создание сайтов</h1>
-				</div>
-				<div class="header-contacts">
-					<h1 class="header-contacts__phone">+7 (915) 347-07-98</h1>
+				<div class="header-wrapper">
+					<div class="header-brand">
+						<a class="header-brand__link" href="/">
+							<img class="header-brand__image" src="../asssets/logo.png" />
+						</a>
+					</div>
+					<div class="header-info">
+						<h1 class="header-info__phone">8 913 729 21 67</h1>
+					</div>
 				</div>
 			</div>
-
-			<div class="about">
-				<h1 class="about__heading">
-					Выводим бизнес наших клиентов на новый уровень
-				</h1>
-				<p class="about__caption">
-					Создадим сайт, настроим рекламу, сгенерируем поток целевых клиентов под ключ без предоплаты
-				</p>
-				<form class="about__form" action="javascript:void(0);">
-					<input class="about__input" type="tel" id="about__phone" placeholder="Введите номер телефона" />
-					<button class="about__button" type="submit">Отправить заявку</button>
-				</form>
-			</div>
+			<nav class="navigation">
+				<div class="navigation-wrapper">
+					<ul class="navigation-list">
+						<li class="navigation-list__item">
+							<a class="navigation-list__link">
+								О нас
+							</a>
+						</li>
+						<li class="navigation-list__item">
+							<a class="navigation-list__link">
+								Услуги
+							</a>
+						</li>
+						<li class="navigation-list__item">
+							<a class="navigation-list__link">
+								Портфолио
+							</a>
+						</li>
+						<li class="navigation-list__item">
+							<a class="navigation-list__link">
+								Кейсы
+							</a>
+						</li>
+						<li class="navigation-list__item">
+							<a class="navigation-list__link">
+								Контакты
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 		</div>
-
-		<div class="fullscreen"></div>
-
-		<video class="video" poster="assets/images/video.png" autoplay="autoplay" loop="loop">
-			<source src="assets/video/coding.mp4" type="video/mp4" />
-			<source src="assets/video/coding.webm" type="video/webm" />
-		</video>
 
 		<!-- Yandex -->
 			<script type="text/javascript">
@@ -82,6 +97,6 @@
 		<!-- /Google -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.min.js"></script>
-		<script src="scripts/bundle.min.js"></script>
+		<script src="scripts/default.js"></script>
 	</body>
 </html>
