@@ -22,7 +22,7 @@ html, body, h1 {
 	color: #fff;
 }
 
-.header-company__caption {
+.header-company__description {
 	font: 18px "RobotoCondensed-Regular", sans-serif;
 	color: #fff;
 }
@@ -54,14 +54,20 @@ html, body, h1 {
     color: #fff;
 }
 
-.about__heading {
+.about__offer {
 	font: 48px "RobotoCondensed-Regular", sans-serif;
 	color: #fff;
 }
 
-.about__caption {
+.about__description {
 	font: 24px "RobotoCondensed-Regular", sans-serif;
 	color: #fff;
+}
+
+.about__descriptor {
+	font: 28px "RobotoCondensed-Regular", sans-serif;
+	color: #fff;
+	margin: 0 0 20px;
 }
 
 .about__button {
