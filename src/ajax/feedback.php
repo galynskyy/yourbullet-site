@@ -1,4 +1,9 @@
 <?php
+	/* Check Data */
+		if(empty($_POST["name"]) && empty($_POST["email"]) && empty($_POST["phone"])) {
+			exit();
+		}
+	/* /Check Data */
 	/* SQL */
 		/* Connection */
 			try {
