@@ -1,6 +1,6 @@
 <?php
 	/* Check Data */
-		if(empty($_POST["name"]) && empty($_POST["email"]) && empty($_POST["phone"])) {
+		if(empty($_POST["phone"])) {
 			exit();
 		}
 	/* /Check Data */
